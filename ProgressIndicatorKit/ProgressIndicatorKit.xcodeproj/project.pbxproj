@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BE6EB09E2152C9DB0025C2F8 /* ProgressIndicatorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6EB09C2152C9DB0025C2F8 /* ProgressIndicatorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE6EB0CF2152CA660025C2F8 /* ProgressIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6EB0CE2152CA660025C2F8 /* ProgressIndicatorViewController.swift */; };
+		BE6EB0D12152E9180025C2F8 /* IndeterminateLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6EB0D02152E9180025C2F8 /* IndeterminateLoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		BE6EB09C2152C9DB0025C2F8 /* ProgressIndicatorKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressIndicatorKit.h; sourceTree = "<group>"; };
 		BE6EB09D2152C9DB0025C2F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE6EB0CE2152CA660025C2F8 /* ProgressIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicatorViewController.swift; sourceTree = "<group>"; };
+		BE6EB0D02152E9180025C2F8 /* IndeterminateLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IndeterminateLoadingView.swift; path = ../../../../IndeterminateLoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		BE6EB09B2152C9DB0025C2F8 /* ProgressIndicatorKit */ = {
 			isa = PBXGroup;
 			children = (
+				BE6EB0D02152E9180025C2F8 /* IndeterminateLoadingView.swift */,
 				BE6EB09C2152C9DB0025C2F8 /* ProgressIndicatorKit.h */,
 				BE6EB09D2152C9DB0025C2F8 /* Info.plist */,
 				BE6EB0CE2152CA660025C2F8 /* ProgressIndicatorViewController.swift */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE6EB0CF2152CA660025C2F8 /* ProgressIndicatorViewController.swift in Sources */,
+				BE6EB0D12152E9180025C2F8 /* IndeterminateLoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
